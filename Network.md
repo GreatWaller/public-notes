@@ -48,6 +48,24 @@ broadcast address to every host on the network
 
 ![image-20200818144102624](Network.assets/image-20200818144102624.png)
 
+```
+**a.Source和Destination即IP源目地址字段，是IP协议最核心的字段；**
+
+**b.Id+Flags+FO三个字段可以实现IP数据分片和重组；**
+
+**c.Total Length和Header Length标记IP头部和上层数据的边界；**
+
+**d.TTL生存时间字段可以实现通信防环；**
+
+**e.DSCP服务区分符可以实现流量控制；**
+
+**f.Checksum字段可以数据包完整性校验；**
+
+**g.Protocol字段标记上层应用；**
+```
+
+
+
 #### 6 ICMP
 
 ping
